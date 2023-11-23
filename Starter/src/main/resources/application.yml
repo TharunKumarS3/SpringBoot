@@ -1,0 +1,18 @@
+server:
+  port: 9089
+
+
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: mysql12345
+    url: jdbc:mysql://127.0.0.1/dcbapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+welcome:
+  message: Hello mother fucke
